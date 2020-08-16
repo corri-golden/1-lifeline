@@ -1,3 +1,52 @@
+/**** nav global ****/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* background-color: #FBFAE6; */
+
+  border-bottom: 1px solid #e7e7e7;
+  
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  height: 72px;
+}
+
+
+.logo {
+  width: 135px;
+  height: 95px;
+}
+
+a {
+  color: black;
+  margin-top: 20px;
+  font-weight: 300;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+a:hover {
+  color: green;
+  text-decoration: none;
+}
+
+img#navLogo {
+  width: 135px;
+  height: 55px
+}
+
+
 /* body {
   background-color: #FBFAE6;
 } */
@@ -59,6 +108,10 @@ a:hover {
   font-weight: 50;
   font-family: 'Poppins', sans-serif;
   width: 60%
+}
+
+.mission {
+  border: red 1px solid
 }
 
 h4 {
@@ -211,7 +264,8 @@ a.fa.fa-facebook {
 }
 
 .footerLogo {
-  display: none
+  display: none;
+  margin: 75px
 }
 
 .footerContainer {
@@ -223,6 +277,7 @@ a.fa.fa-facebook {
   text-align: center
   /* justify-content: space-evenly; */
 }  
+
 
 .footerTop {
   margin-top: 45px
@@ -263,7 +318,6 @@ a.fa.fa-facebook {
   padding-bottom: 0px;
   margin-top: 0px;
   height: 43px;
-  color: red
 }
 
 #direct {
@@ -281,82 +335,58 @@ a.fa.fa-facebook {
   float: 
 } */
 
-  .navbar {
+  /* .navbar {
   overflow: hidden;
   background-color: tan;
   font-family: Arial;
-}
+} */
 
 /* Links inside the navbar */
-.navbar a {
+/* .navbar a {
   float: right;
   font-size: 16px;
   color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-}
-
-/* The dropdown container */
-.dropdown {
-  float: right;
-  overflow: hidden;
-}
-
-/* Dropdown button */
-.dropdown .dropbtn {
-  font-size: 16px;
-  border: none;
-  outline: none;
-  color: black;
-  font-weight: 300;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit; /* Important for vertical align on mobile phones */
-  margin: 0; /* Important for vertical align on mobile phones */
-}
-
-/* Add a red background color to navbar links on hover */
-/* .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
 } */
 
-/* Dropdown content (hidden by default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
 
-/* Links inside the dropdown */
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
 
-/* Add a grey background color to dropdown links on hover */
-.dropdown-content a:hover {
-  background-color: #ddd;
-}
 
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-  display: block;
-}
+
+
+
+
+
+
+
+
+
+
   .mainImg {
       width: 100%;
       height: 754px;
   }
+.direct{
+  display: block;
+  padding-bottom: 0px;
+  margin-top: 0px;
+  height: 43px;
+}
+
+a.direct:hover {
+  color: black;
+  border-bottom: red 2px solid
+}
+
+h6 {
+  font-size: 17px
+}
 
   .services{
     margin-bottom: 0px;
+    margin-top: 50px;
     text-align: center;
     padding-top: 25px;
     padding-bottom: 25px;
@@ -365,6 +395,10 @@ a.fa.fa-facebook {
     justify-content: center;  
     justify-content: space-around;
     height: 600px;
+  }
+
+  p {
+    text-align: left
   }
 
 
@@ -394,7 +428,8 @@ a.fa.fa-facebook {
   width: 50%;
   padding-right: 200px;
   text-align: left;
-  padding-left: 25px
+  padding-left: 25px;
+  margin-top: 35px
 }
 
 h2.servicesTitle {
@@ -405,13 +440,13 @@ h2.servicesTitle {
   text-align: right;
   padding-left: 200px;
   padding-right: 25px;
-  margin-top: 0px
+  margin-top: 45px
 }
   
 .vlSectionTitle {
   display: block;
   border-left: 5px solid red;
-  height: 100px ;
+  height: 182px ;
 }
 
 .vlSection {
@@ -420,9 +455,19 @@ h2.servicesTitle {
   height: 400px ;
 }
 
+hr.serviceHr {
+  width: 50%;
+  border: 2px solid red;
+}
+
 .srvImage {
   width:125px;
-  height:100px
+  height:100px;
+  margin-bottom: 25px
+}
+
+.servicesP {
+  padding: 0px 25px
 }
 
 div.children {
@@ -440,11 +485,11 @@ div.wheelchair {
 
 }
 
-div.ambulatory  {
+div.serviceCards  {
+
   padding-left: 25px;
   padding-right: 25px;
-  width: 33%
-
+  width: 33%;
 }
 
 
@@ -457,7 +502,7 @@ div.wheelchair p {
 
 }
 
-div.ambulatory p {
+div.serviceCards p {
   font-weight: 50
 }
 
@@ -613,12 +658,13 @@ img.wheelchairImg {
   background: #f2f2f2;
   padding-left: 0px;
   padding-right: 0px;
-  height: 422px
+  height: 422px;
+  margin-top: 200px
 }
 
 .testimonialDiv {
   width: 50%;
-  height: 350%;
+  /* height: 350%; */
   margin-top: 100px
 }
 
@@ -658,12 +704,20 @@ img.imgTestimonial {
 } 
 
 .footerContainer {
-  margin-top: 50px;
+  margin-top: 100px;
   margin-bottom: 50px;
   display: flex;
   justify-content: center;  
   justify-content: space-evenly;
 }
+
+/* .footerContainerContact {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;  
+  justify-content: space-evenly;
+} */
 
 .fafa-facebook-square {
   display: block;
@@ -908,49 +962,57 @@ input {
 } */
 
 
-/**** nav global ****/
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  /* background-color: #FBFAE6; */
 
-  border: 1px solid #e7e7e7;
-}
-
-li {
-  float: right
-}
-
-li a {
-  display: block;
+/****** Covid *****/
+.covidPolicy {
+  background: red;
   text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  height: 72px
+}
+
+p.covidP {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: white;
+  text-align: center;
+}
+.covidDiv {
+  display: flex;
+  width: 70%
+}
+
+.covidWrapper {
+  margin: 0 300px
+}
+
+li ul.covidUl{
+  text-align: left
+}
+
+div.covidTitle{
+  text-align: center;
+    font-size: 42px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 50;
+}
+
+span{
+  color: red
+}
+
+.covidImgWrapper {
+  width: 100%
+}
+
+img.covidImg {
+  width: 648.5px;
+  height: 422px;
+  margin-top: 10px; 
+  margin-right: 10px;
+  margin-left: 20px
+
 }
 
 
-.logo {
-  width: 135px;
-  height: 95px;
-}
 
-a {
-  color: black !important;
-  margin-top: 20px;
-  font-weight: 300;
-  font-family: 'Poppins', sans-serif;
 
-}
 
-a:hover {
-  color: green;
-  text-decoration: none;
-}
-
-img#navLogo {
-  width: 135px;
-  height: 55px
-}
