@@ -105,7 +105,7 @@ a:hover {
   margin-right: auto;
   margin-top: 20px;
   margin-bottom: 20px;
-  font-weight: 50;
+  font-weight: 5;
   font-family: 'Poppins', sans-serif;
   width: 60%
 }
@@ -268,7 +268,10 @@ a.fa.fa-facebook {
   margin: 75px
 }
 
+
+
 .footerContainer {
+  border-top: 2px solid #f2f2f2;
   margin-top: 50px;
   margin-bottom: 50px;
   /* display: flex; */
@@ -284,7 +287,8 @@ a.fa.fa-facebook {
 }
 
 .footerPortfolio {
-  margin-top: 25px
+  margin-top: 25px;
+  width: 33%
 }
 
 @media only screen and (min-width: 768px) {
@@ -704,7 +708,17 @@ img.imgTestimonial {
 } 
 
 .footerContainer {
+  padding-top: 75px;
   margin-top: 100px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;  
+  justify-content: space-evenly;
+}
+
+.footerContainer1 {
+  padding-top: 75px;
+  margin-top: 0px;
   margin-bottom: 50px;
   display: flex;
   justify-content: center;  
@@ -726,8 +740,17 @@ img.imgTestimonial {
 }
 
 .column {
-  align-items: left;
+  align-items: center;
+  text-align: center;
+  width: 33%;
+  padding-left: 75px
+}
+
+.column1 {
+  /* align-items: left; */
   text-align: left;
+  width: 33%;
+  padding-left: 75px
 }
 
 h6 {
@@ -784,10 +807,16 @@ a.fa.fa-facebook {
 
 .contactTitle {
   text-align: center;
+  margin-bottom: 0px;
     font-size: 42px;
     font-family: 'Poppins', sans-serif;
     font-weight: 50;
-    margin-bottom: 45px
+}
+
+.contactHR {
+  margin-bottom: 65px;
+  border: 2px red solid
+
 }
 
 .contactph {
@@ -833,6 +862,11 @@ input[type=text] {
   border-bottom: 2px solid lightgrey;
 }
 
+input[type=text]:focus {
+  border: none;
+  outline: none
+}
+
 input[type=tel] {
   width: 100%;
   padding: 12px 20px;
@@ -864,6 +898,7 @@ input[type=number] {
 
 body{
   font-family: 'Poppins', sans-serif;
+  margin: 0px
 }
 
 .faqWrapper {
@@ -937,7 +972,7 @@ button.accordion.active {
     font-size: 42px;
     font-family: 'Poppins', sans-serif;
     font-weight: 50;
-    margin-bottom: 45px;
+    margin-bottom: 0px;
     margin-top: 85px;
 }
 
