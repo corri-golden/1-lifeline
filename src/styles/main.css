@@ -1,11 +1,129 @@
-/* body {
-  width: 100px
-} */
+
 .wrapper {
   width: 100%
 }
 
+/**** slogan ****/
 
+.sloganDiv{
+  height: 100px;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 100px
+}
+
+h6 {
+  margin-bottom: 0px
+}
+
+.slogan {
+  /* text-align: center; */
+  font-size: 12px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 5;
+  font-family: 'Poppins', sans-serif;
+  width: 60%
+}
+
+h2.servicesTitle {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 50;
+  margin-bottom: 0px
+}
+
+.servicesTitleHr {
+  width: 10%;
+  border: 2px solid red;
+  margin-bottom: 50px
+}
+
+.aboutUs {
+  display: none
+}
+
+.serviceHeader {
+  display:block;
+  text-align: center;
+  font-weight: 150
+}
+
+.servicesP {
+  display: block;
+  padding: 0px px;
+  text-align: left;
+  padding: 0px 25px
+
+}
+
+hr.serviceHr {
+  display: block;
+  width: 20%;
+  border: 2px solid red;
+}
+
+button.join {
+  border: 2px solid red;
+  background: white;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 25px;
+  font-size: 18px;
+  box-shadow: 3px 3px 5px grey;
+  margin-bottom: 50px
+}
+
+.tabletHr {
+  width: 100%;
+  border: 2px solid #f2f2f2;
+  margin-bottom: 75px
+
+}
+
+h5 {
+  padding: 0px 25px;
+  font-weight: 50
+}
+
+
+
+.srvImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:75px;
+  height:75px;
+  margin-bottom: 25px
+}
+
+img.imgTestimonial {
+  width: 50px;
+  height: 50px;
+  /* object-fit: fill */
+}
+
+.testimonialName {
+  text-align: center;
+  font-size: 13.28px;
+  font-weight: 50px
+}
+
+img.imgTestimonial {
+  width: 100%;
+  height: 275px;
+  /* object-fit: fill */
+}
+
+a {
+  text-decoration: none;
+  font-weight: 50
+}
+
+p {
+  font-weight: 50;
+}
 
 /**** nav global ****/
 ul {
@@ -13,8 +131,6 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  /* background-color: #FBFAE6; */
-
   border-bottom: 1px solid #e7e7e7;
   
 }
@@ -45,15 +161,43 @@ a {
 
 }
 
-a:hover {
-  color: green;
-  text-decoration: none;
-}
-
 img#navLogo {
   width: 135px;
   height: 55px
 }
+
+/* footer */
+
+.footerDesign {
+  display: none
+}
+
+a.fa.fa-facebook {
+  display: none
+}
+
+.footerLogo {
+  display: none
+}
+
+
+.footerContainer {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  /* display: flex; */
+  justify-content: center;  
+  align-items: center;
+  text-align: center
+  /* justify-content: space-evenly; */
+}  
+
+
+.footerTop {
+  margin-top: 45px
+}
+
+
+
 
 
 /* body {
@@ -106,18 +250,7 @@ a:hover {
 }
 
 
-/**** slogan ****/
-.slogan {
-  /* text-align: center; */
-  font-size: 28px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  font-weight: 5;
-  font-family: 'Poppins', sans-serif;
-  width: 60%
-}
+
 
 .mission {
   border: red 1px solid
@@ -127,15 +260,7 @@ h4 {
   width: 80%
 }
 
-button.join {
-  border: 2px solid red;
-  background: white;
-  font-family: 'Poppins', sans-serif;
-  border-radius: 25px;
-  font-size: 18px;
-  box-shadow: 3px 3px 5px grey;
-  
-}
+
 
 
 /**** mainImg ****/
@@ -279,16 +404,10 @@ a.fa.fa-facebook {
 
 
 
-.footerContainer {
+.footer {
   border-top: 2px solid #f2f2f2;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  /* display: flex; */
-  justify-content: center;  
-  align-items: center;
-  text-align: center
-  /* justify-content: space-evenly; */
-}  
+  margin-top: 75px
+}
 
 
 .footerTop {
@@ -297,9 +416,266 @@ a.fa.fa-facebook {
 
 .footerPortfolio {
   margin-top: 25px;
-  width: 33%
+  /* width: 33%; */
+  text-align: center
 }
 
+/***** FAQ *****/
+
+body{
+  font-family: 'Poppins', sans-serif;
+  margin: 0px
+}
+
+.faqWrapper {
+  /* margin-left: 300px;
+  margin-right: 300px */
+  width: 100%
+}
+
+h2.faqTitle {
+  text-align: center;
+  margin-top: 75px;
+  /* margin-bottom: 75px; */
+  font-size: 21.06px;
+  font-weight: 50
+}
+
+hr.faqHR {
+  margin-bottom: 75px;
+  border: 2px red solid
+}
+.accordion {
+  background-color: white;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+button.accordion{
+  font-family: 'Poppins', sans-serif;
+}
+
+button.accordion.active {
+  color: red
+}
+
+.active, .accordion:hover {
+  background-color: lightgrey;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+  color: red
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  border-bottom: 1px lightgrey solid;
+  font-weight: 50
+}
+
+/***** Covid *****/
+
+.covidPolicy {
+  background: red;
+  text-align: center;
+}
+
+p.covidP {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: white;
+  text-align: center;
+  font-size: 10px
+}
+.covidDiv {
+  /* display: flex; */
+  margin: 0px 15px
+}
+
+.covidWrapper {
+  margin: 0 15px
+}
+
+li ul.covidUl{
+  text-align: left
+}
+
+div.covidTitle{
+  text-align: center;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 50;
+}
+
+span{
+  color: red
+}
+
+.covidImgWrapper {
+  width: 100%
+}
+
+img.covidImg {
+  width: 100%;
+  height: 275px;
+  margin-top: 10px; 
+  /* margin-right: 10px;
+  margin-left: 20px */
+
+}
+
+.contactWrapper {
+  margin-left: 15px;
+  margin-right: 15px
+} 
+
+.contactTitle {
+  text-align: center;
+  margin-bottom: 0px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 50;
+}
+
+.contactHR {
+  margin-bottom: 65px;
+  border: 2px red solid
+
+}
+
+.contactph {
+  font-family: 'Poppins', sans-serif;;
+  font-size: 18px
+}
+
+
+
+button.contactJoinBtn {
+  border: 2px solid red;
+  /* text-align: center; */
+  background: white;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 15px;
+  border-radius: 25px;
+  font-size: 18px;
+  box-shadow: 3px 3px 5px grey;
+  font-size: 16px
+
+  
+}
+
+button.submitContact {
+  border: 2px solid red;
+  background: white;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 25px;
+  font-size: 18px;
+  box-shadow: 3px 3px 5px grey;
+  margin: auto;
+  display: block;
+  margin-top: 25px;
+  font-size: 16px
+  
+}
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid lightgrey;
+}
+
+input[type=text]:focus {
+  border: none;
+  outline: none
+}
+
+input[type=tel] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid lightgrey;
+}
+
+input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid lightgrey;
+}
+
+input[type=number] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid lightgrey;
+}
+
+.joinWrapper {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.joinTitle {
+  text-align: center;
+    font-size: 21.06px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 50;
+    margin-bottom: 0px;
+    margin-top: 85px;
+}
+
+input {
+  font-family: 'Poppins', sans-serif
+}
+
+.submitLine {
+  margin-top: 35px;
+  color: lightgrey 2px solid;
+
+}
+
+.contactph {
+  font-weight: 50;
+  /* color: grey */
+}
+
+/* p.contactph {
+  font-weight: 50;
+  color: grey
+} */
+
+
+
+
+/********* tablet *******/
 @media only screen and (min-width: 768px) {
   .covid {
     display: none
@@ -325,9 +701,6 @@ a.fa.fa-facebook {
    
   }
 
-
-
-/**** tablet ****/
 .direct {
   display: block;
   padding-bottom: 0px;
@@ -354,10 +727,145 @@ a.fa.fa-facebook {
 }
 
 h2.servicesTitle {
+  display: block;
   text-align: center;
   font-size: 28px;
   font-weight: 50;
+  margin-bottom: 0px
 }
+
+
+
+/* .servicesSection {
+  display: block;
+  margin-bottom: 75px;
+} */
+
+.services{
+  display: flex
+  /* display: block;
+  width: 33%; */
+  /* margin-bottom: 0px;
+  margin-top: 50px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;  
+  justify-content: space-around;
+  /* height: 600px; */
+}
+
+div.serviceCards  {
+  display: block;
+  padding-left: 25px;
+  padding-right: 25px;
+  width: 33%;
+}
+
+
+
+.servicesTitleHr {
+  width: 10%;
+  border: 2px solid red;
+  margin-bottom: 50px
+}
+
+.srvImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:125px;
+  height:100px;
+  margin-bottom: 25px
+}
+
+.servicesP {
+  display: block;
+  padding: 0px px;
+  text-align: left
+
+}
+
+.serviceHeader {
+  display:block;
+  text-align: center;
+  font-weight: 150
+}
+
+hr.serviceHr {
+  display: block;
+  width: 20%;
+  border: 2px solid red;
+}
+
+.servicesP {
+  display: block;
+  padding: 0px 0px;
+  text-align: left
+
+}
+
+button.join {
+  display: block;
+  margin-bottom: 75px
+}
+
+.tabletHr {
+  display: none
+
+}
+
+.testimonials {
+  display: flex;
+  /* padding-top: 100px;
+  padding-bottom: 100px; */
+  text-align: center;
+  background: #f2f2f2;
+  padding-left: 0px;
+  padding-right: 0px;
+  height: 322px;
+  /* margin-top: 200px */
+}
+
+.testimonials {
+  display: flex;
+  /* padding-top: 100px;
+  padding-bottom: 100px; */
+  text-align: center;
+  background: #f2f2f2;
+  padding-left: 0px;
+  padding-right: 0px;
+  height: 322px;
+  /* margin-top: 200px */
+}
+
+.testimonialDiv {
+  display: block;
+  width: 50%;
+  /* height: 350%; */
+  /* margin-top: 100px */
+}
+
+.testimonialDiv1 {
+  display: block;
+  width: 50%;
+  /* height: 350%; */
+  /* margin-top: 100px */
+  margin-top: 80px;
+  padding: 0px 25px
+}
+
+
+
+img.imgTestimonial {
+  max-width: 384px;
+  height: 322px;
+  /* object-fit: fill */
+}
+
+
 
 }
 
@@ -385,14 +893,29 @@ h2.servicesTitle {
   text-decoration: none;
 } */
 
+.tabletHr {
+  display: none
+}
+
+.slogan {
+  display: block;
+  /* text-align: center; */
+  font-size: 28px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 5;
+  font-family: 'Poppins', sans-serif;
+  width: 60%
+}
 
 
 
 
-
-
-
-
+.servicesTitleHr {
+  display: none;
+}
 
 
 
@@ -459,6 +982,7 @@ h6 {
 }
 
 .aboutUs {
+  display: block;
   width: 50%;
   padding-right: 200px;
   text-align: left;
@@ -551,7 +1075,7 @@ img.medical {
   background-repeat: no-repeat */
   display: block;
   }
-}
+
 
 
 
@@ -699,7 +1223,11 @@ img.wheelchairImg {
 .testimonialDiv {
   width: 50%;
   /* height: 350%; */
-  margin-top: 100px
+  /* margin-top: 100px */
+}
+
+.testimonialDiv1 {
+  
 }
 
 h5{
@@ -729,10 +1257,7 @@ img.imgTestimonial {
   margin-right: 400px
 } */
 
-
-
-/* footer */
-
+/****** footer *******/
 .footer{
   margin-top: 10px
 } 
@@ -783,6 +1308,11 @@ img.imgTestimonial {
   padding-left: 75px
 }
 
+.footerPortfolio {
+  margin-top: 25px;
+  width: 33%
+}
+
 h6 {
   font-weight: 200;
   margin-bottom: 0;
@@ -821,6 +1351,12 @@ a.fa.fa-facebook {
 .footerLogo {
   display: block
 }
+
+
+
+
+/* footer */
+
 
 
 
@@ -943,6 +1479,8 @@ body{
   font-size: 42px;
   font-weight: 50
 }
+
+
 .accordion {
   background-color: white;
   color: #444;
@@ -1075,6 +1613,7 @@ img.covidImg {
   margin-right: 10px;
   margin-left: 20px
 
+}
 }
 
 
