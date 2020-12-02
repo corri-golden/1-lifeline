@@ -46,30 +46,25 @@
        
     </div>
 
-    <form action="https://formspree.io/seedofabba@yahoo.com" method="POST">
+    <form action="https://formspree.io/f/mrgoaran" method="POST">
+
 
         
     <div class="formFormat">
-           
-
-                <input class="contactph" placeholder="First Name" type="text" name="first name">            
-            
-                <input class="contactph" placeholder= "Last Name" type="text" name="last name">
-                <input class="contactph" placeholder="Phone Number" type="tel" id="phone" name="phone"
-       pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-       required>
-                <input class="contactph" placeholder="Email" type="email" id="email" pattern=".+@globex.com" size="30" required>       
-    
-              
-           
-              <input class="contactph" placeholder="Address 1" type="text" name="address1">
-              <input class="contactph" placeholder="Address 2" type="text" name="address2">
-              <input class="contactph" placeholder="City" name="city" type="text">
-            
-
-        <!-- <div>
-            <div class="row">
-              <div class="form-group col-lg-5"> -->
+        <label for="fname">First name:</label><br>
+        <input class="contactph" type="text" name="first name">            
+        <label for="fname">Last name:</label><br>
+        <input class="contactph" type="text" name="last name">
+        <label for="fname">Phone Number:</label><br>
+        <input class="contactph" type="number" id="phone" name="phone">
+        <label for="fname">Email Address:</label><br>
+        <input class="contactph" type="email" id="email" size="30" required>       
+        <label for="fname">Address 1:</label><br>
+        <input class="contactph" type="text" name="address1">
+        <label for="fname">Address 2:</label><br>
+        <input class="contactph" type="text" name="address2">
+        <label for="fname">City:</label><br>
+        <input class="contactph" name="city" type="text">
                 <select class="contactph" id="state" name="state">
                     <option value="" selected="selected">Select a State</option>
                     <option value="AL">Alabama</option>
@@ -126,7 +121,10 @@
                   </select>
               <!-- </div>
             </div> -->
-                    <input class="contactph" placeholder="Zip Code" type="number" name="zip">
+                <br>
+                <br>
+                <label for="fname">Zip Code:</label><br>
+                <input class="contactph" type="number" name="zip">
               <!-- </div>    
             </div> -->
 
@@ -135,9 +133,9 @@
                 <div class="form-group col-lg-5"> -->
               <!-- <form action="/action_page.php"> -->
                 <p class="contactph">Are You Legally Eligible for Employment in this County:</p>
-                <input class="contactph" type="radio" id="yes" name="eligible" value="yes">
+                <input class="contactph" type="radio" id="yes" name="eligible to work" value="yes">
                 <label class="contactph" for="yes">Yes</label><br>
-                <input class="contactph" type="radio" id="no" name="eligible" value="no">
+                <input class="contactph" type="radio" id="no" name="eligible to work" value="no">
                 <label class="contactph" for="no">No</label><br>
                 <!-- </div>
             </div> -->
@@ -148,7 +146,7 @@
                 <div class="row">
                 <div class="form-group col-lg-5"> -->
                 <p class="contactph">Date you are available for Work</p>
-                <input class="contactph" type="date" id="date" name="date">
+                <input class="contactph" type="date" id="date" name="startDate">
                 <!-- </div>
             </div> -->
 
@@ -158,11 +156,11 @@
                 <div class="row">
                 <div class="form-group col-lg-5"> -->
                 <p class="contactph">Type of Employment Desired:</p>
-                <input class="contactph" type="radio" id="part time" name="employment" value="part time">
+                <input class="contactph" type="radio" id="part time" name="typeOfEmployment" value="part time">
                 <label class="contactph" for="part time">Part Time</label><br>
-                <input class="contactph" type="radio" id="full time" name="employment" value="full time">
+                <input class="contactph" type="radio" id="full time" name="typeOfEmployment" value="full time">
                 <label class="contactph" for="full time">Full Time</label><br>
-                <input class="contactph" type="radio" id="temporary" name="employment" value="temporary">
+                <input class="contactph" type="radio" id="temporary" name="typeOfEmployment" value="temporary">
                 <label class="contactph"for="temporary">Temporary</label><br>
                 <!-- </div>
             </div> -->
@@ -173,13 +171,12 @@
                 <div class="row">
                 <div class="form-group col-lg-5"> -->
                 <p class="contactph">Have you ever pleaded or been convicted of a felony or misdemeanor: (Please note that a conviction will not automatically exclude you from consideration for employment.)</p>
-                <input class="contactph" type="radio" id="yes" name="convicted" value="yes">
+                <input class="contactph" type="radio" id="yes" name="conviction" value="yes">
                 <label class="contactph" for="yes">Yes</label><br>
-                <input class="contactph" type="radio" id="no" name="convicted" value="no">
+                <input class="contactph" type="radio" id="no" name="conviction" value="no">
                 <label class="contactph" for="no">No</label><br>
                 <p class="contactph">If yes, please explain</p>
-                <input class="contactph" type="text" name="explanation1">
-                <input class="contactph" type="text" name="explanation2">
+                <textarea name="explanation" type="text" cols="40" rows="5"></textarea>
 
                 <!-- </div>
             </div> -->
@@ -196,6 +193,7 @@
                 <label for="no">No</label><br>
             
             <!-- <label class="contactph" for="exampleFormControlTextarea1">State:</label> -->
+            <div>
             <select class="contactph" id="state" name="stateDL">
                 <option value="" selected="selected">Select a State</option>
                 <option value="AL">Alabama</option>
@@ -250,6 +248,8 @@
                 <option value="WI">Wisconsin</option>
                 <option value="WY">Wyoming</option>
               </select>
+              </div>
+              
                 <!-- </div>
             </div> -->
 
@@ -291,18 +291,18 @@
         
         
           <div class="column1">
-            
             <p>&copy 1 LifeLine Medical Transport</p>
             <i style="font-size:24px" class="fa">&#xf095;</i><p> 615-499-5158</p>
-            <i style="font-size:24px" class="fa">&#xf0e0;</i><br><a  href="mailto:1Lifelinetransport@gmail.com"> goldencrosslogistics@gmail.com</a><br>
+            <i style="font-size:24px" class="fa">&#xf0e0;</i><br><a  href="mailto:1Lifelinetransport@gmail.com"> 1Lifelinetransport@gmail.com</a><br>
           </div>
-        
+
           <div class="vl"></div>
           <hr class="footerLine" style="width:80%">
         
           
           <div class="footerPortfolio">
             <a href="https://corri-golden.github.io/personal-website/">Web Design by Corri Golden</a></li>
+            <hr class="designHr">
             </div>
         
             </div>
