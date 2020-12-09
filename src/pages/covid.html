@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title>1 LifeLine Medical Transport</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="../styles/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
@@ -15,32 +15,48 @@
   <body> 
     
     <header>
-         <ul>
-            <a href="../../home.html"><img id="navLogo" src="../images/logo.jpg" width="105.98" height="115" alt="pic"></a>
-            <li><a class="direct" href="./contact.html">CONTACT US</a></li>
-            <li><a class="direct" href="./faqs.html">FAQs</a></li>
-          </ul>
+
+ <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="../../home.html"><img id="navLogo" src="../images/logo.jpg" width="115.98" height="50" alt="pic"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="./faqs.html">FAQS</a>
+          </li>
+           <!-- <li class="nav-item">
+            <a class="nav-link text-dark" href="../src/pages/covid.html">COVID-19</a>
+          </li>  -->
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="./contact.html">CONTACT US</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+         
     </header> 
     <div class="covidImgWrapper">
     <div class="covidPolicy">
-      <p class="covidP">COVID-19 Procedures and Patient Transport | Updated 8-6-2020</p>
+      <p class="covidP">COVID-19 Procedures and Patient Transport | Updated 11-30-2020</p>
     </div>
     <div class="covidDiv">
-      <div>
-        <img class="covidImg" src="../images/covid.jpg" alt="pic">
-      </div>
-      <div>
-        <img class="covidImg" src="../images/covid.jpg" alt="pic">
-      </div>
+      <div class="covidDiv">
+        <img class="covidImg" src="../images/covid19.jpg" alt="pic">
     </div>
     </div>
 
     <div class="covidTitle">
-      <h3>COVID-19 UPDATE:</h3>
+      <h3 class="covidTitle">COVID-19 UPDATE:</h3>
+      <hr class="covidHr">
+
     </div>
 
     <div class="covidWrapper">
     <div class="covidUl">
+          <p>- <span>WE ARE NOT</span> transporting those without mask.</p>
           <p>- <span>WE ARE NOT</span> transporting those diagnosed with Covid-19.</p>
           <p>- <span>We ARE NOT</span> transporting those exposed to Covid-19.</p>  
           <p>- <span>We ARE NOT</span> transporting those with flu-like symptoms.</p> 
@@ -53,7 +69,7 @@
       
       
     
-<div class="footer">
+  <div class="footer">
     
                 <div class="footerContainer">
 
@@ -68,7 +84,7 @@
                 
                 <p>&copy 1 LifeLine Medical Transport</p>
                 <i style="font-size:24px" class="fa">&#xf095;</i><p> 615-499-5158</p>
-                <i style="font-size:24px" class="fa">&#xf0e0;</i><br><a  href="mailto:1Lifelinetransport@gmail.com"> goldencrosslogistics@gmail.com</a><br>
+                <i style="font-size:24px" class="fa">&#xf0e0;</i><br><a  href="mailto:1Lifelinetransport@gmail.com"> 1Lifelinetransport@gmail.com</a><br>
               </div>
 
               <div class="vl"></div>
@@ -77,17 +93,20 @@
               
               <div class="footerPortfolio">
                 <a href="https://corri-golden.github.io/personal-website/">Web Design by Corri Golden</a></li>
+                <hr class="designHr">
                 </div>
 
                 </div>
-    </div>
+        </div>
 
-  </div>
+      </div>
 
     </div> 
     </div>
 
-
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 
     </body>
   </html>

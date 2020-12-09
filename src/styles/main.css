@@ -1,20 +1,268 @@
 /* body {
-  width: 100px
+  width: 100%
 } */
+
+label {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+}
+
+nav-link:hover {
+  border-bottom: 2px solid red
+}
 .wrapper {
   width: 100%
 }
 
+a.nav-link {
+  color: black
+}
 
+a.nav-link:hover {
+  border-bottom: red 2px solid
+}
+
+.contactHr {
+  width: 25%;
+  margin-bottom: 65px;
+  border: 2px red solid
+}
+
+hr.joinHr {
+  width: 30%;
+  margin-bottom: 65px;
+  border-bottom: 1px red solid
+
+}
+
+.missionHr1 {
+  width: 30%;
+  border-bottom: 2px solid red;
+}
+
+h1.slogan1 {
+  display: block;
+  /* text-align: center; */
+  font-size: 22px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* font-weight: 50; */
+  font-family: 'Poppins', sans-serif;
+  width: 60%;
+  font-weight: lighter;
+}
+
+
+textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border: 2px solid lightgrey;
+}
+
+textarea[type=text]:focus {
+  outline: 2px solid red;
+  
+}
+
+
+
+/**** background Image ****/
+
+.mainImgDiv {
+  /* padding-left: 50px;
+  padding-right: 50px; */
+  margin-top: 100px;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.mainImg {
+  width: 100%;
+  height: 275px;
+  opacity: 0.9;
+ 
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  text-shadow: 2px 2px black;
+  width: 325px;
+}
+
+/**** slogan ****/
+
+.sloganDiv{
+  height: 100px;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 100px;
+  margin-top: 50px
+}
+
+h6 {
+  margin-bottom: 0px
+}
+
+.slogan {
+  /* text-align: center; */
+  font-size: 12px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 5;
+  font-family: 'Poppins', sans-serif;
+  width: 60%
+}
+
+h2.servicesTitle {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 50;
+  margin-bottom: 0px;
+  margin-top: 25px
+}
+
+/* .servicesTitleHr {
+  width: 10%;
+  border: 2px solid red;
+  margin-bottom: 50px
+} */
+
+.aboutUs {
+  display: none
+}
+
+.serviceHeader {
+  display:block;
+  text-align: center;
+  font-weight: 150;
+  font-size: 24px
+}
+
+.servicesP {
+  display: block;
+  padding: 0px 0px;
+  text-align: left;
+  padding: 0px 25px;
+  height: 225px
+
+}
+
+.missionHr {
+  width: 55px;
+  border-bottom: 1px solid red;
+}
+
+hr.serviceHr {
+  display: block;
+  width: 30%;
+  border: 1px solid red;
+}
+
+.servicesTitleHr {
+  width: 15%;
+  border: 1px solid red;
+}
+
+button.join {
+  border: 2px solid red;
+  background: white;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 25px;
+  font-size: 18px;
+  box-shadow: 3px 3px 5px grey;
+  margin-bottom: 50px
+}
+
+.tabletHr {
+  width: 100%;
+  border: 2px solid #f2f2f2;
+  margin-bottom: 75px
+
+}
+
+.designHr {
+  border-bottom: 2px red solid;
+  width: 35%
+}
+
+h5 {
+  padding: 0px 25px;
+  font-weight: 50
+}
+
+
+.covidHr {
+  width: 40%;
+  border: 1px solid red;
+  margin-bottom: 25px
+
+}
+.srvImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:75px;
+  height:75px;
+  margin-bottom: 25px
+}
+
+img.imgTestimonial {
+  width: 50px;
+  height: 50px;
+  /* object-fit: fill */
+}
+
+.testimonialName {
+  text-align: center;
+  font-size: 13.28px;
+  font-weight: 50px;
+  margin-bottom: 50px;
+  color: red
+}
+
+img.imgTestimonial {
+  width: 100%;
+  height: 275px;
+  /* object-fit: fill */
+}
+
+a {
+  text-decoration: none !important;
+  font-weight: 50;
+  color: black !important
+}
+
+p {
+  font-weight: 50;
+}
+
+.contactJoinBtn {
+  margin-left: 15px
+}
+
+img#navLogo {
+  width: 135px;
+  height: 55px
+} 
 
 /**** nav global ****/
-ul {
+/* ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  /* background-color: #FBFAE6; */
-
   border-bottom: 1px solid #e7e7e7;
   
 }
@@ -45,15 +293,40 @@ a {
 
 }
 
-a:hover {
-  color: green;
-  text-decoration: none;
+
+
+/* footer */
+
+.footerDesign {
+  display: none
 }
 
-img#navLogo {
-  width: 135px;
-  height: 55px
+a.fa.fa-facebook {
+  display: none
 }
+
+.footerLogo {
+  display: none
+}
+
+
+.footerContainer {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  /* display: flex; */
+  justify-content: center;  
+  align-items: center;
+  text-align: center
+  /* justify-content: space-evenly; */
+}  
+
+
+.footerTop {
+  margin-top: 45px
+}
+
+
+
 
 
 /* body {
@@ -106,18 +379,7 @@ a:hover {
 }
 
 
-/**** slogan ****/
-.slogan {
-  /* text-align: center; */
-  font-size: 28px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  font-weight: 5;
-  font-family: 'Poppins', sans-serif;
-  width: 60%
-}
+
 
 .mission {
   border: red 1px solid
@@ -127,23 +389,11 @@ h4 {
   width: 80%
 }
 
-button.join {
-  border: 2px solid red;
-  background: white;
-  font-family: 'Poppins', sans-serif;
-  border-radius: 25px;
-  font-size: 18px;
-  box-shadow: 3px 3px 5px grey;
-  
-}
 
 
-/**** mainImg ****/
-.mainImg {
-  width: 100%;
-  height: 275px;
- 
-}
+
+
+
 
 .name {
   text-align: center;
@@ -279,16 +529,10 @@ a.fa.fa-facebook {
 
 
 
-.footerContainer {
+.footer {
   border-top: 2px solid #f2f2f2;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  /* display: flex; */
-  justify-content: center;  
-  align-items: center;
-  text-align: center
-  /* justify-content: space-evenly; */
-}  
+  /* margin-top: 75px */
+}
 
 
 .footerTop {
@@ -297,13 +541,400 @@ a.fa.fa-facebook {
 
 .footerPortfolio {
   margin-top: 25px;
-  width: 33%
+  /* width: 33%; */
+  text-align: center
 }
 
+/***** FAQ *****/
+
+body{
+  font-family: 'Poppins', sans-serif;
+  margin: 0px
+}
+
+.faqWrapper {
+  /* margin-left: 300px;
+  margin-right: 300px */
+  width: 100%
+}
+
+h2.faqTitle {
+  display: block;
+  text-align: center;
+  margin-top: 75px;
+  /* margin-bottom: 75px; */
+  font-size: 21.06px;
+  font-weight: 50
+}
+
+hr.faqHR {
+  margin-bottom: 75px;
+  border-bottom: 2px red solid;
+  width: 55%
+}
+.accordion {
+  background-color: white;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+button.accordion{
+  font-family: 'Poppins', sans-serif;
+}
+
+button.accordion.active {
+  color: red
+}
+
+.active, .accordion:hover {
+  background-color: lightgrey;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+  color: red
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  border-bottom: 1px lightgrey solid;
+  font-weight: 50
+}
+
+/***** Covid *****/
+
+.covidPolicy {
+  background: red;
+  text-align: center;
+}
+
+p.covidP {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: white;
+  text-align: center;
+  font-size: 10px
+}
+.covidDiv {
+  /* display: flex; */
+  margin: 0px 15px
+}
+
+.covidWrapper {
+  margin: 0 15px
+}
+
+li ul.covidUl{
+  text-align: left
+}
+
+div.covidTitle{
+  text-align: center;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 50;
+}
+
+.covidTitle {
+  margin-top: 25px
+}
+
+span{
+  color: red
+}
+
+.covidImgWrapper {
+  width: 100%
+}
+
+img.covidImg {
+  width: 100%;
+  height: 275px;
+  margin-top: 10px; 
+  /* margin-right: 10px;
+  margin-left: 20px */
+
+}
+
+.contactWrapper {
+  margin-left: 15px;
+  margin-right: 15px
+} 
+
+.contactTitle {
+  text-align: center;
+  margin-bottom: 0px;
+    font-size: 21px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+}
+
+.contactHr {
+  margin-bottom: 65px;
+  border: 1px red solid;
+  width: 15%
+
+}
+
+.contactph {
+  font-family: 'Poppins', sans-serif;;
+  font-size: 18px
+}
+
+
+
+button.contactJoinBtn {
+  border: 2px solid red;
+  /* text-align: center; */
+  background: white;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 15px;
+  font-size: 18px;
+  box-shadow: 3px 3px 5px grey;
+  font-size: 16px;
+  width: 100px;
+  height:50px;
+  border-radius: 5px;
+
+  
+}
+
+button.submitContact {
+  border: 2px solid red;
+  background: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  box-shadow: 3px 3px 5px grey;
+  margin: auto;
+  display: block;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 16px;
+  width: 100px;
+  height:50px;
+  border-radius: 5px;
+  
+}
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border: 2px solid lightgrey;
+  border-radius: 5px;
+}
+
+input[type=text]:focus {
+  outline: 2px solid red;
+  
+}
+
+input[type=tel] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border: 2px solid lightgrey;
+  border-radius: 5px;
+}
+
+input[type=number]:focus {
+  outline: 2px solid red;
+  
+}
+
+input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border: 2px solid lightgrey;
+  border-radius: 5px;
+}
+
+input[type=email]:focus {
+  outline: 2px solid red;
+  
+}
+
+input[type=number] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border: 2px solid lightgrey;
+  border-radius: 5px;
+}
+
+.joinWrapper {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.joinTitle {
+  text-align: center;
+    font-size: 21.06px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    margin-bottom: 0px;
+    margin-top: 85px;
+}
+
+input {
+  font-family: 'Poppins', sans-serif
+}
+
+
+
+.submitLine {
+  margin-top: 35px;
+  color: lightgrey 2px solid;
+
+}
+
+.contactph {
+  font-weight: 50;
+  /* color: grey */
+}
+
+/* p.contactph {
+  font-weight: 50;
+  color: grey
+} */
+
+
+
+
+/********* tablet *******/
 @media only screen and (min-width: 768px) {
+  form {
+    padding: 0px 75px
+  }
+
+
+  h1.slogan1 {
+    display: block;
+    /* text-align: center; */
+    font-size: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* font-weight: 50; */
+    font-family: 'Poppins', sans-serif;
+    width: 60%;
+    font-weight: lighter;
+  }
+
+  .designHr {
+    border-bottom: 2px red solid;
+    width: 35%
+  }
+
   .covid {
     display: none
   }
+
+  .covidHr {
+    width: 20%;
+    border-bottom: 1px solid red;
+    /* margin-bottom: 50px */
+  
+  }
+
+  .missionHr1 {
+    width: 40%;
+    border-bottom: 2px solid red;
+  }
+
+  
+
+  .joinTitle {
+    text-align: center;
+      font-size: 28px;
+      font-family: 'Poppins', sans-serif;
+      font-weight: lighter;
+      margin-bottom: 0px;
+      margin-top: 85px;
+  }
+
+  .contactHr {
+  width: 15%;
+  /* margin-bottom: 45px; */
+  border: 1px red solid
+
+}
+
+textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border: 2px solid lightgrey;
+
+
+}
+
+hr.joinHr {
+  width: 20%;
+  margin-bottom: 65px;
+  border-bottom: 1px red solid
+
+}
+
+hr.faqHR {
+  width: 35%;
+  margin-bottom: 75px;
+  border-bottom: 2px red solid
+}
+
+.missionHr {
+  width: 55px;
+  border-bottom: 1px solid red;
+}
+
+hr.serviceHr {
+  /* display: block; */
+  width: 60%;
+  border: 1px solid red;
+}
+
+.servicesTitleHr {
+  width: 13%;
+  border: 1px solid red;
+}
+
+.contactTitle {
+  text-align: center;
+  margin-bottom: 0px;
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+}
 
   .slogan {
     text-align: center;
@@ -316,6 +947,16 @@ a.fa.fa-facebook {
     height: 100px;
     align-items: center;
     text-align: center;
+    margin-top: 100px
+  }
+
+  .mainImgDiv {
+    /* padding-left: 50px;
+    padding-right: 50px; */
+    /* margin-top: 100px; */
+    position: relative;
+    text-align: center;
+    color: white;
   }
 
   .mainImg {
@@ -325,9 +966,16 @@ a.fa.fa-facebook {
    
   }
 
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+    text-shadow: 2px 2px black;
+    width: 400px
+  }
 
-
-/**** tablet ****/
 .direct {
   display: block;
   padding-bottom: 0px;
@@ -342,22 +990,196 @@ a.fa.fa-facebook {
   height: 43px
 }
 
-.mainImg {
-  width: 100%;
-  height: 375px;
-  margin-top: 125px
- 
-}
+
 
 .aboutUs {
   display: none
 }
 
 h2.servicesTitle {
+  display: block;
   text-align: center;
   font-size: 28px;
   font-weight: 50;
+  margin-bottom: 0px
 }
+
+
+
+/* .servicesSection {
+  display: block;
+  margin-bottom: 75px;
+} */
+
+.services{
+  display: flex
+  /* display: block;
+  width: 33%; */
+  /* margin-bottom: 0px;
+  margin-top: 50px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;  
+  justify-content: space-around;
+  /* height: 600px; */
+}
+
+div.serviceCards  {
+  display: block;
+  padding-left: 25px;
+  padding-right: 25px;
+  width: 33%;
+}
+
+.covidImgWrapper {
+  width: 100%;
+}
+
+/* .covidDiv {
+  display: flex;
+      justify-content: space-around;
+
+  
+} */
+
+img.covidImg {
+  width: 325px;
+  height: 275px;
+  margin-top: 10px; 
+  /* margin-right: 100px; */
+  /* margin-left: 100px  */
+
+}
+
+
+/* .servicesTitleHr {
+  width: 10%;
+  border: 2px solid red;
+  margin-bottom: 50px
+} */
+
+.srvImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:125px;
+  height:100px;
+  margin-bottom: 25px
+}
+
+.servicesP {
+  display: block;
+  padding: 0px px;
+  text-align: left;
+  margin-bottom: 75px
+
+}
+
+.serviceHeader {
+  display:block;
+  text-align: center;
+  font-weight: 150
+}
+
+/* hr.serviceHr {
+  display: block;
+  width: 20%;
+  border: 1px solid red;
+} */
+
+.servicesP {
+  display: block;
+  padding: 0px 0px;
+  text-align: left;
+  height: 385px
+
+}
+
+button.join {
+  display: block;
+  margin-bottom: 75px
+}
+
+.tabletHr {
+  display: none
+
+}
+
+.testimonials {
+  /* display: flex; */
+  /* padding-top: 100px;
+  padding-bottom: 100px; */
+  text-align: center;
+  background: #f2f2f2;
+  padding-left: 0px;
+  padding-right: 0px;
+  height: 322px;
+  /* margin-top: 200px */
+}
+
+.testimonials {
+  /* display: flex; */
+  /* padding-top: 100px;
+  padding-bottom: 100px; */
+  text-align: center;
+  background: #f2f2f2;
+  padding-left: 0px;
+  padding-right: 0px;
+  height: 322px;
+  /* margin-top: 200px */
+}
+
+.testimonialName {
+  text-align: center;
+  font-size: 13.28px;
+  font-weight: 50px;
+  margin-bottom: 0px
+}
+
+.testimonialDiv {
+  display: block;
+  width: 50%;
+  /* height: 350%; */
+  /* margin-top: 100px */
+}
+
+.testimonialDiv1 {
+  display: block;
+  width: 50%;
+  /* height: 350%; */
+  /* margin-top: 100px */
+  margin-top: 80px;
+  padding: 0px 25px;
+  margin: auto;
+}
+
+.man {
+  padding-top: 95px;
+  padding-left: 65px;
+  padding-right: 65px;
+}
+
+
+
+img.imgTestimonial {
+  max-width: 384px;
+  height: 322px;
+  /* object-fit: fill */
+}
+
+h2.faqTitle {
+  display: block;
+  text-align: center;
+  margin-top: 75px;
+  /* margin-bottom: 75px; */
+  font-size: 28px;
+  font-weight: 50
+}
+
+
 
 }
 
@@ -385,20 +1207,86 @@ h2.servicesTitle {
   text-decoration: none;
 } */
 
+.tabletHr {
+  display: none
+}
+
+
+
+h1.slogan {
+  display: block;
+  /* text-align: center; */
+  font-size: 28px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* font-weight: 50; */
+  font-family: 'Poppins', sans-serif;
+  width: 60%;
+  font-weight: 100;
+}
+
+h1.slogan1 {
+  display: block;
+  /* text-align: center; */
+  font-size: 48px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* font-weight: 50; */
+  font-family: 'Poppins', sans-serif;
+  width: 60%;
+  font-weight: lighter;
+}
+
+/* .testimonialDiv1 {
+  width: 500px
+} */
+
+
+
+
+.servicesTitleHr {
+  display: none;
+}
+
+.missionHr1 {
+  width: 25%;
+  border-bottom: 3px solid red;
+}
+
+h1.slogan {
+  display: block;
+  /* text-align: center; */
+  font-size: 48px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* font-weight: 50; */
+  font-family: 'Poppins', sans-serif;
+  width: 60%;
+  font-weight: 100;
+}
+
+hr.serviceHr {
+  display: block;
+  width: 45%;
+  border: 1px solid red;
+}
+
+.servicesTitleHr {
+  width: 15%;
+  border: 1px solid red;
+}
 
 
 
 
 
-
-
-
-
-
-
-
-
-  .mainImg {
+.mainImg {
       width: 100%;
       height: 754px;
   }
@@ -416,6 +1304,14 @@ a.direct:hover {
 
 h6 {
   font-size: 17px
+}
+
+.sloganDiv{
+  height: 100px;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 150px;
+  margin-top: 100px;
 }
 
   .services{
@@ -443,9 +1339,16 @@ h6 {
   .mainImgDiv {
     padding-left: 50px;
     padding-right: 50px;
-    margin-top: 150px
+    margin-top: 100px;
+    /* position: relative;
+    text-align: center;
+    color: white; */
+  }
 
-
+  .centered {
+    font-size: 72px;
+    font-weight: 600;
+    width: 900px
   }
 
 
@@ -459,6 +1362,7 @@ h6 {
 }
 
 .aboutUs {
+  display: block;
   width: 50%;
   padding-right: 200px;
   text-align: left;
@@ -489,10 +1393,10 @@ h2.servicesTitle {
   height: 400px ;
 }
 
-hr.serviceHr {
+/* hr.serviceHr {
   width: 50%;
   border: 2px solid red;
-}
+} */
 
 .srvImage {
   width:125px;
@@ -500,8 +1404,19 @@ hr.serviceHr {
   margin-bottom: 25px
 }
 
-.servicesP {
+/* .servicesP {
   padding: 0px 25px
+} */
+
+.servicesP {
+  display: block;
+  padding: 0px 0px;
+  text-align: left;
+  padding: 0px 25px;
+  height: 225px;
+  margin-bottom: 30px
+
+
 }
 
 div.children {
@@ -551,7 +1466,7 @@ img.medical {
   background-repeat: no-repeat */
   display: block;
   }
-}
+
 
 
 
@@ -685,7 +1600,7 @@ img.wheelchairImg {
 
 /****** testimonials ******/
 .testimonials {
-  display: flex;
+  /* display: flex; */
   /* padding-top: 100px;
   padding-bottom: 100px; */
   text-align: center;
@@ -693,14 +1608,26 @@ img.wheelchairImg {
   padding-left: 0px;
   padding-right: 0px;
   height: 422px;
-  margin-top: 200px
+  margin-top: 100px;
 }
+
+/* h5.testText {
+  padding-top: 100px;
+} */
 
 .testimonialDiv {
   width: 50%;
   /* height: 350%; */
-  margin-top: 100px
+  /* margin-top: 100px */
 }
+
+.man {
+  padding-top: 175px;
+  padding-left: 500px;
+  padding-right: 500px
+}
+
+
 
 h5{
   padding: 0px 85px;
@@ -729,17 +1656,14 @@ img.imgTestimonial {
   margin-right: 400px
 } */
 
-
-
-/* footer */
-
+/****** footer *******/
 .footer{
-  margin-top: 10px
+  margin-top: 0px
 } 
 
 .footerContainer {
-  padding-top: 75px;
-  margin-top: 100px;
+  padding-top: 35px;
+  margin-top: 50px;
   margin-bottom: 50px;
   display: flex;
   justify-content: center;  
@@ -781,6 +1705,17 @@ img.imgTestimonial {
   text-align: left;
   width: 33%;
   padding-left: 75px
+}
+
+hr.faqHR {
+  width: 30%;
+  margin-bottom: 75px;
+  border-bottom: 2px red solid
+}
+
+.footerPortfolio {
+  margin-top: 25px;
+  width: 33%
 }
 
 h6 {
@@ -825,6 +1760,12 @@ a.fa.fa-facebook {
 
 
 
+/* footer */
+
+
+
+
+
 
 
 
@@ -840,12 +1781,20 @@ a.fa.fa-facebook {
   margin-bottom: 0px;
     font-size: 42px;
     font-family: 'Poppins', sans-serif;
-    font-weight: 50;
+    font-weight: lighter;
 }
 
-.contactHR {
+hr.contactHr {
+  width: 13%;
   margin-bottom: 65px;
-  border: 2px red solid
+  border-bottom: 1px red solid
+
+}
+
+hr.joinHr {
+  width: 30%;
+  margin-bottom: 65px;
+  border-bottom: 1px red solid
 
 }
 
@@ -856,16 +1805,20 @@ a.fa.fa-facebook {
 
 
 
+
+
 button.contactJoinBtn {
   border: 2px solid red;
   /* text-align: center; */
   background: white;
   font-family: 'Poppins', sans-serif;
   margin-top: 15px;
-  border-radius: 25px;
   font-size: 18px;
   box-shadow: 3px 3px 5px grey;
-  font-size: 16px
+  font-size: 16px;
+  width: 100px;
+  height:50px;
+  border-radius: 5px;
 
   
 }
@@ -874,13 +1827,16 @@ button.submitContact {
   border: 2px solid red;
   background: white;
   font-family: 'Poppins', sans-serif;
-  border-radius: 25px;
   font-size: 18px;
   box-shadow: 3px 3px 5px grey;
   margin: auto;
   display: block;
   margin-top: 25px;
-  font-size: 16px
+  margin-bottom: 50px;
+  font-size: 16px;
+  width: 100px;
+  height:50px;
+  border-radius: 5px;
   
 }
 input[type=text] {
@@ -889,13 +1845,14 @@ input[type=text] {
   margin: 8px 0;
   box-sizing: border-box;
   border: none;
-  border-bottom: 2px solid lightgrey;
+  border: 2px solid lightgrey;
+  border-radius: 5px;
 }
 
-input[type=text]:focus {
+/* input[type=text]:focus {
   border: none;
   outline: none
-}
+} */
 
 input[type=tel] {
   width: 100%;
@@ -903,7 +1860,13 @@ input[type=tel] {
   margin: 8px 0;
   box-sizing: border-box;
   border: none;
-  border-bottom: 2px solid lightgrey;
+  border: 2px solid lightgrey;
+  border-radius: 5px;
+}
+
+input[type=tel]:focus {
+  outline: 2px solid red;
+  
 }
 
 input[type=email] {
@@ -912,8 +1875,15 @@ input[type=email] {
   margin: 8px 0;
   box-sizing: border-box;
   border: none;
-  border-bottom: 2px solid lightgrey;
+  border: 2px solid lightgrey;
+  border-radius: 5px;
 }
+
+input[type=email]:focus {
+  outline: 2px solid red;
+  
+}
+
 
 input[type=number] {
   width: 100%;
@@ -921,7 +1891,22 @@ input[type=number] {
   margin: 8px 0;
   box-sizing: border-box;
   border: none;
-  border-bottom: 2px solid lightgrey;
+  border: 2px solid lightgrey;
+  border-radius: 5px;
+}
+
+textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border: 2px solid lightgrey;
+}
+
+textarea[type=text]:focus {
+  outline: 2px solid red;
+  
 }
 
 /**** FAQ ****/
@@ -932,17 +1917,22 @@ body{
 }
 
 .faqWrapper {
-  margin-left: 300px;
-  margin-right: 300px
+  width: 100%;
+  /* margin-left: 300px;
+  margin-right: 300px */
+  padding: 0px 300px
 }
 
-.faqTitle {
+h2.faqTitle {
+  display: block;
   text-align: center;
   margin-top: 75px;
-  margin-bottom: 75px;
+  margin-bottom: 0px;
   font-size: 42px;
   font-weight: 50
 }
+
+
 .accordion {
   background-color: white;
   color: #444;
@@ -1001,7 +1991,7 @@ button.accordion.active {
   text-align: center;
     font-size: 42px;
     font-family: 'Poppins', sans-serif;
-    font-weight: 50;
+    font-weight: lighter;
     margin-bottom: 0px;
     margin-top: 85px;
 }
@@ -1014,6 +2004,10 @@ input {
   margin-top: 35px;
   color: lightgrey 2px solid;
 
+}
+
+.contactJoinBtn {
+  margin-left: 15px
 }
 
 .contactph {
@@ -1040,10 +2034,20 @@ p.covidP {
   color: white;
   text-align: center;
 }
-.covidDiv {
-  display: flex;
-  width: 70%
+
+.covidHr {
+  width: 13%;
+  border-bottom: 1px solid red;
+  margin-bottom: 50px
+
 }
+/* .covidDiv {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  margin-left: 0px;
+  margin-right: 0px
+} */
 
 .covidWrapper {
   margin: 0 300px
@@ -1068,13 +2072,28 @@ span{
   width: 100%
 }
 
+.designHr {
+  border-bottom: 2px red solid;
+  width: 35%
+}
+
+.covidDiv {
+  
+}
+
 img.covidImg {
   width: 648.5px;
   height: 422px;
-  margin-top: 10px; 
-  margin-right: 10px;
-  margin-left: 20px
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 50%; */
 
+}
+
+button:focus {
+  outline: none;
+}
 }
 
 
